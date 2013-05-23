@@ -1,50 +1,38 @@
 \documentclass{article}
 
-\usepackage{graphicx}
-\usepackage{graphicx} 
 
+\usepackage{graphicx}
+\usepackage{graphicx} % includegraphics command is implemented here
 \usepackage{titling}
 \usepackage{listings}
 \usepackage{color}
-
 \usepackage[font=scriptsize]{caption}
 
-
-\definecolor{dkgreen}{rgb}{0,0.4,0}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
-
-\definecolor{mauve}{rgb}{0.22,0,0.66}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
 
 \lstset{frame=tb,
-
   language=Python,
   aboveskip=3mm,
-
   belowskip=3mm,
   showstringspaces=false,
   columns=flexible,
-
   basicstyle={\small\ttfamily},
   numbers=none,
-
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
-
   commentstyle=\color{dkgreen},
   stringstyle=\color{mauve},
-
   breaklines=true,
   breakatwhitespace=true
   tabsize=3
-
 }
 \newcommand{\subtitle}[1]{%
-
   \posttitle{%
     \par\end{center}
     \begin{center}\large#1\end{center}
-
-   
+    \vskip0.2em}%
 }
 
 %pre-amble
